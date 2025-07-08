@@ -1,0 +1,47 @@
+/* Reset & background */
+body {
+    background-color: #f7f9fc;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header with logo */
+.header {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+}
+.logo img {
+    height: 50px;
+    margin-right: 20px;
+}
+.title h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+    color: #0b5394;
+}
+.title p {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #555;
+}
+
+/* Result */
+.result-box {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.result-box h1 {
+    font-size: 40px;
+    color: #0b5394;
+}
+.result-box p {
+    color: #444;
+}
